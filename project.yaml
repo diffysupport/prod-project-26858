@@ -18,6 +18,11 @@ basic:
         - /ms_widget_builder/mw-get-pest-control-quotes
         - /ms_widget_builder/mw-get-solar-quotes
         - /ms_widget_builder/mw-get-window-quotes
+        - /ms_widget_builder/get-an-elevation-solar-quote
+        - /ms_widget_builder/get-an-imrg-quote
+        - /ms_widget_builder/get-a-groundworks-quote
+        - /ms_widget_builder/get-a-freedom-solar-quote
+        - /ms_widget_builder/get-a-safeway-moving-quote
     monitoring:
         days: [Sun]
         type: weekly
@@ -39,6 +44,17 @@ advanced:
     night_mode: false
     retina_images: false
     single_ip: false
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
